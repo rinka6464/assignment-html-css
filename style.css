@@ -14,9 +14,17 @@ body {
 
 
 .HeaderLogo{
-    height: 23px;
+    margin-left: 40px;
+}
+
+.HeaderLogo:hover {
+    opacity: 0.8
+}
+
+
+.HeaderLogoImg{
+    height: 20px;
     width: auto;
-    margin-right: auto;
 }
 
 .HeaderMenu{
@@ -24,7 +32,6 @@ body {
     display: flex;
     font-weight: bold;
 }
-
 
 .HeaderItem{
     text-align: center;
@@ -36,6 +43,10 @@ body {
     text-decoration: none;
 }
 
+.Header:hover {
+    opacity: 0.8
+}
+
 .HeaderButton{
     margin: auto 20px auto 8px;
     background-color: #F79214;
@@ -45,28 +56,40 @@ body {
     text-decoration: none;
 }
 
+.HeaderButton:hover {
+    opacity: 0.8
+}
+
 .FirstViewImage{
-    position: absolute;
+    position: relative;
 }
 
 .FirstViewImage1{
-    top: -100px;
-    left: -70px;
+    position: absolute;
+    top: 0px;
+    left: -10px;
+    width: 250px;
+    height: auto;
 }
 
 .FirstViewImage2{
-    top: 84px;
-    left: -70px;
+    position: absolute;
+    top: 80px;
+    left: -90px;
+    width: 470px;
+    height: auto;
 }
 
 .FirstViewImage3{
+    position: absolute;
     right: 0;
-    top: -70px;
+    top: 0px;
 }
 
 .FirstViewImage4{
+    position: absolute;
     right: 0;
-    bottom: 70px;
+    top: 350px;
 }
 
 .FirstViewContent{
@@ -78,8 +101,31 @@ body {
     
 }
 
+h2{
+    font-size: 36px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    font-family: "ヒラギノ角ゴ Pro W6", "Hiragino Kaku Gothic Pro", sans-serif;
+    font-weight: 900;
+}
 
-<!--   color: #364e96; /*文字色*/
-  padding: 5px 0; /*上下の余白*/
-  border-top: solid 6px #364e96; /*上線*/
-  border-bottom: solid 6px #364e96; /*下線*/ -->
+.FirstViewButton{
+    display: inline-block;
+    background-color: #F79214;
+    padding: 25px 100px;
+    color: #fff;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px; 
+}
+.FirstViewButton:hover {
+  opacity: 0.8
+}
+
+.FirstViewBadge{
+    position: absolute;
+    top: 150px;
+    left: 450px;
+    width: 200px;
+}
